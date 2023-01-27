@@ -8,15 +8,14 @@ import Contact from './pages/Contact'
 
 function App() {
   return (
-    <BrowserRouter>
-    <Navbar />
+    <>
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="media" element={<Media />} />
       <Route path="music" element={<Music />} />
       <Route path="contact" element={<Contact />} />
     </Routes>
-    </BrowserRouter>
+    </>
   );
 }
 

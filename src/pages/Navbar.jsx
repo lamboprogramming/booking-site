@@ -61,7 +61,7 @@ const Navbar = () => {
                             <li className="py-1 text-white hover:scale-125">Home
                             </li>
                             </Link>
-                           
+                       
                             <Link to="/music">
                             <li className="py-1 text-white hover:text-indigo-200 hover:scale-125">Music
                             </li>
@@ -76,14 +76,9 @@ const Navbar = () => {
                             <li className="py-1 text-white hover:text-indigo-200 hover:scale-125">Contact
                             </li>
                             </Link>
-                          
-                          
                         </ul>
-
-                     
                     </div>
-                </div>
-               
+                </div> 
             </div>
         </nav>
   );
