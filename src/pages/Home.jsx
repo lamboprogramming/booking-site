@@ -1,18 +1,20 @@
 import React from 'react';
-import background from '../assets/nightnyc.png'
-import twin from '../assets/twindj.png'
-import { Link } from 'react-router-dom'
 import Testimonials from './Testimonials';
+import Hero from './Hero';
 
 const Home = () => {
-    const backgroundImageStyle = {
-        backgroundImage: `url(${background})`,
-        backgroundSize: "cover",
-      }
+   
  
   return (
-    
-    <div className="grid lg:grid-cols-1 font-[Poppins] lg:grid-cols-2 " style={backgroundImageStyle} >
+    <div>
+        <Hero />
+        <Testimonials />
+    </div>
+
+   
+  )
+    {/*
+ <div className="grid lg:grid-cols-1 font-[Poppins] lg:grid-cols-2 " style={backgroundImageStyle} >
     <span className="font-[Poppins] text-4xl font-bold tracking-wider text-violet-700 md:text-7xl text-center overline mt-4 lg:mt-8"> DJ LuChainz</span>
     <div className="grid py-1 m-4 leading-10 text-center">
  
@@ -33,7 +35,8 @@ const Home = () => {
       
       <Testimonials />
     </div>
-  )
+*/}
+
 }
 
 export default Home;
