@@ -15,39 +15,6 @@ const Testimonials = () => {
           
             <div className="items-start -mx-3 md:flex">
                 <div className="px-3 md:w-1/3">
-                {/* Iguana */}
-                <div className="w-full p-5 mx-auto mb-6 font-light text-gray-800 bg-white border border-gray-200 rounded-lg">
-                <div className="flex items-center w-full mb-4">
-                    <div className="w-10 h-10 overflow-hidden border border-gray-200 rounded-full bg-gray-50">
-                        <img src={iguana} alt=""/>
-                    </div>
-                    <div className="flex-grow pl-3">
-                        <h6 className="text-sm font-bold text-gray-600 uppercase">Iguana Lounge NYC</h6>
-                    </div>
-                </div>
-                <div className="w-full">
-                    <p className="text-sm leading-tight"><span className="mr-1 text-lg italic font-bold leading-none text-gray-400">"</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, obcaecati ullam excepturi dicta error deleniti sequi.<span className="ml-1 text-lg italic font-bold leading-none text-gray-400">"</span></p>
-                </div>
-            </div>
-                {/* Iguana */}
-                
-                {/* Suit 215 */}
-                <div className="w-full p-5 mx-auto mb-6 font-light text-gray-800 bg-white border border-gray-200 rounded-lg">
-                <div className="flex items-center w-full mb-4">
-                    <div className="w-10 h-10 overflow-hidden border border-gray-200 rounded-full bg-gray-50">
-                        <img src={msz} alt=""/>
-                    </div>
-                    <div className="flex-grow pl-3">
-                        <h6 className="text-sm font-bold text-gray-600 uppercase">Suite 215</h6>
-                    </div>
-                </div>
-                <div className="w-full">
-                    <p className="text-sm leading-tight"><span className="mr-1 text-lg italic font-bold leading-none text-gray-400">"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, voluptatem porro obcaecati dicta, quibusdam sunt ipsum, laboriosam nostrum facere exercitationem pariatur deserunt tempora molestiae assumenda nesciunt alias eius? Illo, autem!<span className="ml-1 text-lg italic font-bold leading-none text-gray-400">"</span></p>
-                </div>
-            </div>
-                {/* Suit 215 */}
-                
-                {/* NLMA */}
                     <div className="w-full p-5 mx-auto mb-6 font-light text-gray-800 bg-white border border-gray-200 rounded-lg">
                         <div className="flex items-center w-full mb-4">
                             <div className="w-10 h-10 overflow-hidden border border-gray-200 rounded-full bg-gray-50">
@@ -61,9 +28,6 @@ const Testimonials = () => {
                             <p className="text-sm leading-tight"><span className="mr-1 text-lg italic font-bold leading-none text-gray-400">"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sunt ratione dolor exercitationem minima quas itaque saepe quasi architecto vel! Accusantium, vero sint recusandae cum tempora nemo commodi soluta deleniti.<span className="ml-1 text-lg italic font-bold leading-none text-gray-400">"</span></p>
                         </div>
                     </div>
-                    {/* NLMA */}
-                    
-                    {/* TCK */}
                     <div className="w-full p-5 mx-auto mb-6 font-light text-gray-800 bg-white border border-gray-200 rounded-lg">
                         <div className="flex items-center w-full mb-4">
                             <div className="w-10 h-10 overflow-hidden border border-gray-200 rounded-full bg-gray-50">
@@ -76,14 +40,22 @@ const Testimonials = () => {
                         <div className="w-full">
                             <p className="text-sm leading-tight"><span className="mr-1 text-lg italic font-bold leading-none text-gray-400">"</span>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Dolore quod necessitatibus, labore sapiente, est, dignissimos ullam error ipsam sint quam tempora vel.<span className="ml-1 text-lg italic font-bold leading-none text-gray-400">"</span></p>
                         </div>
-                        </div>
-                         {/* TCK */}
                     </div>
-                   
-                    
-                
+                </div>
                 <div className="px-3 md:w-1/3">
-               
+                    <div className="w-full p-5 mx-auto mb-6 font-light text-gray-800 bg-white border border-gray-200 rounded-lg">
+                        <div className="flex items-center w-full mb-4">
+                            <div className="w-10 h-10 overflow-hidden border border-gray-200 rounded-full bg-gray-50">
+                                <img src={iguana} alt=""/>
+                            </div>
+                            <div className="flex-grow pl-3">
+                                <h6 className="text-sm font-bold text-gray-600 uppercase">Iguana Lounge NYC</h6>
+                            </div>
+                        </div>
+                        <div className="w-full">
+                            <p className="text-sm leading-tight"><span className="mr-1 text-lg italic font-bold leading-none text-gray-400">"</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, obcaecati ullam excepturi dicta error deleniti sequi.<span className="ml-1 text-lg italic font-bold leading-none text-gray-400">"</span></p>
+                        </div>
+                    </div>
                     <div className="w-full p-5 mx-auto mb-6 font-light text-gray-800 bg-white border border-gray-200 rounded-lg">
                         <div className="flex items-center w-full mb-4">
                             <div className="w-10 h-10 overflow-hidden border border-gray-200 rounded-full bg-gray-50">
@@ -99,7 +71,19 @@ const Testimonials = () => {
                     </div>
                 </div>
                 <div className="px-3 md:w-1/3">
-              
+                    <div className="w-full p-5 mx-auto mb-6 font-light text-gray-800 bg-white border border-gray-200 rounded-lg">
+                        <div className="flex items-center w-full mb-4">
+                            <div className="w-10 h-10 overflow-hidden border border-gray-200 rounded-full bg-gray-50">
+                                <img src={msz} alt=""/>
+                            </div>
+                            <div className="flex-grow pl-3">
+                                <h6 className="text-sm font-bold text-gray-600 uppercase">Suite 215</h6>
+                            </div>
+                        </div>
+                        <div className="w-full">
+                            <p className="text-sm leading-tight"><span className="mr-1 text-lg italic font-bold leading-none text-gray-400">"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, voluptatem porro obcaecati dicta, quibusdam sunt ipsum, laboriosam nostrum facere exercitationem pariatur deserunt tempora molestiae assumenda nesciunt alias eius? Illo, autem!<span className="ml-1 text-lg italic font-bold leading-none text-gray-400">"</span></p>
+                        </div>
+                    </div>
                     <div className="w-full p-5 mx-auto mb-6 font-light text-gray-800 bg-white border border-gray-200 rounded-lg">
                         <div className="flex items-center w-full mb-4">
                             <div className="w-10 h-10 overflow-hidden border border-gray-200 rounded-full bg-gray-50">
