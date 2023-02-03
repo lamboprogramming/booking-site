@@ -1,21 +1,19 @@
 import React from 'react';
-import Testimonials from '../Testimonials';
-import Hero from '../Hero';
-import Social from '../Social';
+import Testimonials from './Testimonials';
+import Hero from './Hero';
+
 
 
 const Home = () => {
    
  
   return (
-    <div>
-    <div className="bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 ">
+    
+    <div className="">
         <Hero />
-        <Social />
-        <Testimonials />
-       
+        <Testimonials />  
     </div>
-    </div>
+   
 
    
   )

@@ -1,10 +1,10 @@
 import React from 'react'
-import nlma from '../assets/nlma-web.png'
-import tck from '../assets/tck.png'
-import iguana from '../assets/iguana.png'
-import hccs from '../assets/hccs.png'
-import sfc from '../assets/sfc.png'
-import msz from '../assets/msz.png'
+import nlma from '../../assets/nlma-web.png'
+import tck from '../../assets/tck.png'
+import iguana from '../../assets/iguana.png'
+import hccs from '../../assets/hccs.png'
+import sfc from '../../assets/sfc.png'
+import msz from '../../assets/msz.png'
 
 const Testimonials = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import background from '../assets/nighttime.jpg'
-import twin from '../assets/twindj.png'
+import background from '../../assets/nighttime.jpg'
+import twin from '../../assets/twindj.png'
 import { Link } from 'react-router-dom'
 
 const Hero = () => {
