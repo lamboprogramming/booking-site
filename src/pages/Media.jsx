@@ -8,6 +8,7 @@ import nl6 from '../assets/nl6.jpg';
 import nl7 from '../assets/nl7.jpg';
 import nl8 from '../assets/nl8.jpg';
 import nl9 from '../assets/nl9.jpg';
+import video from '../content/luchainz-party.MP4'
 import { Player } from 'video-react';
 
     
@@ -19,7 +20,7 @@ const Media = () => {
    <div className='bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500'>
     
    <Player>
-   <source src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4" />
+   <source src={video} />
  </Player>
  
    

@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router-dom";
 import Home from './pages/Home'
-import Music from './pages/Music'
+import Music from './pages/Music/Music'
 import Media from './pages/Media'
-import Contact from './pages/Contact'
+import Contact from './pages/Contact-form/Contact'
 
 
 function App() {
