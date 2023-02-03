@@ -9,6 +9,7 @@ import msz from '../assets/msz.png'
 const Testimonials = () => {
   return (
     <div>
+    
     {/* Testimonials Section */}
     <div className="w-full px-5 py-12 text-gray-800 border-t border-b border-gray-200 bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 md:py-20">
         <div className="w-full max-w-6xl mx-auto">
