@@ -8,12 +8,20 @@ import nl6 from '../assets/nl6.jpg';
 import nl7 from '../assets/nl7.jpg';
 import nl8 from '../assets/nl8.jpg';
 import nl9 from '../assets/nl9.jpg';
+import { Player } from 'video-react';
 
-
+    
 
 const Media = () => {
   return (
+   
+    
    <div className='bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500'>
+    
+   <Player>
+   <source src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4" />
+ </Player>
+ 
    
    {/* Carousel 1 Banner */}
    <h3 className="pt-4 mb-5 ml-2 text-2xl tracking-widest text-left text-black capitalize md: md:text-3xl lg:text-4xl">NLMA Halloween Party</h3>
@@ -25,7 +33,7 @@ const Media = () => {
        <span className="inline-block w-1 h-1 ml-1 bg-black rounded-full"></span>
    </div>
       {/* Carousel 1 */}
-  <div className="gap-2 m-4 bg-black carousel carousel-center rounded-box ">
+  <div className="gap-6 m-4 bg-black carousel carousel-center rounded-box ">
   <div className="carousel-item">
     <img src={nl4} alt="Pizza" />
   </div> 
@@ -64,7 +72,7 @@ const Media = () => {
   </div>
 
   {/* Carousel 2 */}
-  <div className="gap-2 m-4 bg-black carousel carousel-center rounded-box ">
+  <div className="gap-6 m-4 bg-black carousel carousel-center rounded-box ">
   <div className="carousel-item">
     <img src={nl4} alt="Pizza" />
   </div> 
@@ -104,7 +112,7 @@ const Media = () => {
   </div>
   
     {/* Carousel 3 */}
-    <div className="gap-2 m-4 bg-black carousel carousel-center rounded-box ">
+    <div className="gap-6 m-4 bg-black carousel carousel-center rounded-box ">
     <div className="carousel-item">
       <img src={nl4} alt="Pizza" />
     </div> 
