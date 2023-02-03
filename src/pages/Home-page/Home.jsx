@@ -1,7 +1,8 @@
 import React from 'react';
 import Testimonials from './Testimonials';
 import Hero from './Hero';
-
+import Social from '../Social'
+import Footer from '../Footer';
 
 
 const Home = () => {
@@ -9,9 +10,11 @@ const Home = () => {
  
   return (
     
-    <div className="">
+    <div className='bg-black'>
         <Hero />
-        <Testimonials />  
+        <Social /> 
+        <Testimonials /> 
+        <Footer /> 
     </div>
    
 

@@ -6,13 +6,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
 
 @layer base{
     .music {
         font-family: 'Dancing Script';
     }
     .nav-links {
-      font-family: 'Shadows Into Light', cursive;
+      font-family: 'Abel';
     } 
  
   }

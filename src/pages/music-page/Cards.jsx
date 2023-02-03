@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom'
 const Cards = () => {
   return (
     <div className="max-w-full p-5 m-20 text-white md:m-10 h-min rounded-3xl bg-gradient-to-r from-fuchsia-700 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500">
-    <div className="grid grid-cols-1 gap-10 md:p-10 md:grid-cols-2 lg:grid-cols-4">
+    <div className="grid grid-cols-1 gap-10 md:p-10 md:grid-cols-2 lg:grid-cols-4 font-[Abel]">
 
     {/* Card #1 Carribean*/}
       <div className="overflow-hidden border border-gray-500 rounded-t-full shadow-lg">

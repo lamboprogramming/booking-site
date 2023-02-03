@@ -1,6 +1,7 @@
-import Sounds from '../Music/Sounds'
-import Cards from '../Music/Cards'
-import Mixes from '../Music/Mixes'
+import Sounds from '../music-page/Sounds'
+import Cards from '../music-page/Cards'
+import Mixes from '../music-page/Mixes'
+import Footer from '../Footer';
 
 
 const Music = () => {
@@ -11,6 +12,7 @@ const Music = () => {
       <Sounds  />
       <Cards />
       <Mixes />
+      <Footer />
   </div>
     </div>
     );
